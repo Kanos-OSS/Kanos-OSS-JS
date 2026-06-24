@@ -1,0 +1,28 @@
+{
+  "name": "analyses-service",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "start": "tsx index.ts",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "drizzle-orm": "^0.45.2",
+    "drizzle-zod": "^0.8.3",
+    "express": "^5.0.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.0.0",
+    "pg": "^8.11.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/multer": "^1.4.11",
+    "@types/pg": "^8.11.0",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
